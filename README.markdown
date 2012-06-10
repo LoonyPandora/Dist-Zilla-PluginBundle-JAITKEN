@@ -48,13 +48,12 @@ info from your local git repo.
 
 # SEE ALSO
 
-[Dist::Zilla](https://metacpan.org/module/Dist::Zilla), [Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/module/Dist::Zilla::Role::PluginBundle::Easy)
-
-[Dist::Zilla::Plugin::AutoPrereqs](https://metacpan.org/module/Dist::Zilla::Plugin::AutoPrereqs), [Dist::Zilla::Plugin::MetaJSON](https://metacpan.org/module/Dist::Zilla::Plugin::MetaJSON),
-[Dist::Zilla::Plugin::MinimumPerl](https://metacpan.org/module/Dist::Zilla::Plugin::MinimumPerl), [Dist::Zilla::Plugin::VersionFromModule](https://metacpan.org/module/Dist::Zilla::Plugin::VersionFromModule),
-[Dist::Zilla::Plugin::ReadmeAnyFromPod](https://metacpan.org/module/Dist::Zilla::Plugin::ReadmeAnyFromPod), [Dist::Zilla::Plugin::PruneFiles](https://metacpan.org/module/Dist::Zilla::Plugin::PruneFiles),
-[Dist::Zilla::Plugin::GithubMeta](https://metacpan.org/module/Dist::Zilla::Plugin::GithubMeta), [Dist::Zilla::PluginBundle::Filter](https://metacpan.org/module/Dist::Zilla::PluginBundle::Filter),
-[Dist::Zilla::PluginBundle::Basic](https://metacpan.org/module/Dist::Zilla::PluginBundle::Basic)
+[Dist::Zilla](https://metacpan.org/module/Dist::Zilla), [Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/module/Dist::Zilla::Role::PluginBundle::Easy),
+[Dist::Zilla::Plugin::AutoPrereqs](https://metacpan.org/module/Dist::Zilla::Plugin::AutoPrereqs), [Dist::Zilla::Plugin::GithubMeta](https://metacpan.org/module/Dist::Zilla::Plugin::GithubMeta),
+[Dist::Zilla::Plugin::MetaJSON](https://metacpan.org/module/Dist::Zilla::Plugin::MetaJSON), [Dist::Zilla::Plugin::MinimumPerl](https://metacpan.org/module/Dist::Zilla::Plugin::MinimumPerl),
+[Dist::Zilla::Plugin::PruneFiles](https://metacpan.org/module/Dist::Zilla::Plugin::PruneFiles), [Dist::Zilla::Plugin::ReadmeAnyFromPod](https://metacpan.org/module/Dist::Zilla::Plugin::ReadmeAnyFromPod),
+[Dist::Zilla::Plugin::VersionFromModule](https://metacpan.org/module/Dist::Zilla::Plugin::VersionFromModule), [Dist::Zilla::PluginBundle::Basic](https://metacpan.org/module/Dist::Zilla::PluginBundle::Basic),
+[Dist::Zilla::PluginBundle::Filter](https://metacpan.org/module/Dist::Zilla::PluginBundle::Filter)
 
 
 
