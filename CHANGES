@@ -1,3 +1,13 @@
+0.1.1   2012-09-17
+
+    [ FEATURE ]      
+    * Add D::Z::P::PrereqsClean defaulting to perl v5.10
+        Perl v5.10 is the minimum reasonable version I can support
+
+    * Add D::Z::P::MinimumPrereqs defaulting to 2010
+        This is the year Perl v5.10 was released
+
+
 0.1.0   2012-06-11
 
     ** First Public Release **
