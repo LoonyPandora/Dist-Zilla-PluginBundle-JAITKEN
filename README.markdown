@@ -28,6 +28,12 @@ It is exactly equivalent to
     [GithubMeta]
     issues = 1
 
+    [MinimumPrereqs]
+    minimum_year = 2010
+
+    [PrereqsClean]
+    minimum_perl = v5.10
+
     [@Filter]
     -bundle = @Basic
     -remove = Readme
@@ -51,6 +57,7 @@ info from your local git repo.
 [Dist::Zilla](https://metacpan.org/module/Dist::Zilla), [Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/module/Dist::Zilla::Role::PluginBundle::Easy),
 [Dist::Zilla::Plugin::AutoPrereqs](https://metacpan.org/module/Dist::Zilla::Plugin::AutoPrereqs), [Dist::Zilla::Plugin::GithubMeta](https://metacpan.org/module/Dist::Zilla::Plugin::GithubMeta),
 [Dist::Zilla::Plugin::MetaJSON](https://metacpan.org/module/Dist::Zilla::Plugin::MetaJSON), [Dist::Zilla::Plugin::MinimumPerl](https://metacpan.org/module/Dist::Zilla::Plugin::MinimumPerl),
+[Dist::Zilla::Plugin::MinimumPrereqs](https://metacpan.org/module/Dist::Zilla::Plugin::MinimumPrereqs), [Dist::Zilla::Plugin::PrereqsClean](https://metacpan.org/module/Dist::Zilla::Plugin::PrereqsClean),
 [Dist::Zilla::Plugin::PruneFiles](https://metacpan.org/module/Dist::Zilla::Plugin::PruneFiles), [Dist::Zilla::Plugin::ReadmeAnyFromPod](https://metacpan.org/module/Dist::Zilla::Plugin::ReadmeAnyFromPod),
 [Dist::Zilla::Plugin::VersionFromModule](https://metacpan.org/module/Dist::Zilla::Plugin::VersionFromModule), [Dist::Zilla::PluginBundle::Basic](https://metacpan.org/module/Dist::Zilla::PluginBundle::Basic),
 [Dist::Zilla::PluginBundle::Filter](https://metacpan.org/module/Dist::Zilla::PluginBundle::Filter)
