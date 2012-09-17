@@ -1,0 +1,16 @@
+language: perl
+
+perl:
+    - "5.16"
+    - "5.14"
+    - "5.12"
+
+before_install:
+    - cpanm Dist::Zilla --quiet --notest
+
+install:
+    - dzil authordeps | xargs cpanm --quiet --notest
+    - dzil listdeps | xargs cpanm --quiet --notest
+
+script:
+    - dzil smoke --release
