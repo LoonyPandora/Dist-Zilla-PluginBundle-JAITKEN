@@ -32,6 +32,12 @@ It is exactly equivalent to
     [GithubMeta]
     issues = 1
 
+    [MinimumPrereqs]
+    minimum_year = 2010
+
+    [PrereqsClean]
+    minimum_perl = v5.10
+
     [@Filter]
     -bundle = @Basic
     -remove = Readme
@@ -79,6 +85,12 @@ sub configure {
         [GithubMeta => {
             issues => 1,
         }],
+        [MinimumPrereqs=> {
+            minimum_year => 2010,
+        }],
+        [PrereqsClean=> {
+            minimum_perl => v5.10,
+        }],
     );
 
     $self->add_bundle('@Filter', {
@@ -94,6 +106,7 @@ sub configure {
 L<Dist::Zilla>, L<Dist::Zilla::Role::PluginBundle::Easy>,
 L<Dist::Zilla::Plugin::AutoPrereqs>, L<Dist::Zilla::Plugin::GithubMeta>,
 L<Dist::Zilla::Plugin::MetaJSON>, L<Dist::Zilla::Plugin::MinimumPerl>,
+L<Dist::Zilla::Plugin::MinimumPrereqs>, L<Dist::Zilla::Plugin::PrereqsClean>,
 L<Dist::Zilla::Plugin::PruneFiles>, L<Dist::Zilla::Plugin::ReadmeAnyFromPod>,
 L<Dist::Zilla::Plugin::VersionFromModule>, L<Dist::Zilla::PluginBundle::Basic>,
 L<Dist::Zilla::PluginBundle::Filter>
