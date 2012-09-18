@@ -89,7 +89,7 @@ sub configure {
             minimum_year => 2010,
         }],
         [PrereqsClean=> {
-            minimum_perl => v5.10,
+            minimum_perl => 'v5.10',
         }],
     );
 
