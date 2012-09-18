@@ -88,9 +88,6 @@ sub configure {
         [MinimumPrereqs=> {
             minimum_year => 2010,
         }],
-        [PrereqsClean=> {
-            minimum_perl => 'v5.10',
-        }],
     );
 
     $self->add_bundle('@Filter', {
