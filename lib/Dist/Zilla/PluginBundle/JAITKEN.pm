@@ -62,7 +62,7 @@ use strict;
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
 
-our $VERSION = '0.1.1';
+our $VERSION = '0.1.2';
 
 sub configure {
     my $self = shift;
