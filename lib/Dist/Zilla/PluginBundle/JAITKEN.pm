@@ -33,7 +33,7 @@ It is exactly equivalent to
     issues = 1
 
     [MinimumPrereqs]
-    minimum_year = 2010
+    minimum_year = 2009
 
     [PrereqsClean]
     minimum_perl = v5.10
@@ -62,7 +62,7 @@ use strict;
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
 
-our $VERSION = '0.1.2';
+our $VERSION = '0.1.3';
 
 sub configure {
     my $self = shift;
@@ -86,7 +86,7 @@ sub configure {
             issues => 1,
         }],
         [MinimumPrereqs=> {
-            minimum_year => 2010,
+            minimum_year => 2009,
         }],
         [PrereqsClean=> {
             minimum_perl => 'v5.10',
