@@ -9,6 +9,7 @@ This is the [Dist::Zilla](https://metacpan.org/module/Dist::Zilla) configuration
 It is exactly equivalent to
 
     [VersionFromModule]
+    [NameFromDirectory]
 
     [AutoPrereqs]
 
@@ -59,8 +60,8 @@ info from your local git repo.
 [Dist::Zilla::Plugin::MetaJSON](https://metacpan.org/module/Dist::Zilla::Plugin::MetaJSON), [Dist::Zilla::Plugin::MinimumPerl](https://metacpan.org/module/Dist::Zilla::Plugin::MinimumPerl),
 [Dist::Zilla::Plugin::MinimumPrereqs](https://metacpan.org/module/Dist::Zilla::Plugin::MinimumPrereqs), [Dist::Zilla::Plugin::PrereqsClean](https://metacpan.org/module/Dist::Zilla::Plugin::PrereqsClean),
 [Dist::Zilla::Plugin::PruneFiles](https://metacpan.org/module/Dist::Zilla::Plugin::PruneFiles), [Dist::Zilla::Plugin::ReadmeAnyFromPod](https://metacpan.org/module/Dist::Zilla::Plugin::ReadmeAnyFromPod),
-[Dist::Zilla::Plugin::VersionFromModule](https://metacpan.org/module/Dist::Zilla::Plugin::VersionFromModule), [Dist::Zilla::PluginBundle::Basic](https://metacpan.org/module/Dist::Zilla::PluginBundle::Basic),
-[Dist::Zilla::PluginBundle::Filter](https://metacpan.org/module/Dist::Zilla::PluginBundle::Filter)
+[Dist::Zilla::Plugin::VersionFromModule](https://metacpan.org/module/Dist::Zilla::Plugin::VersionFromModule), [Dist::Zilla::Plugin::NameFromDirectory](https://metacpan.org/module/Dist::Zilla::Plugin::NameFromDirectory),
+[Dist::Zilla::PluginBundle::Basic](https://metacpan.org/module/Dist::Zilla::PluginBundle::Basic), [Dist::Zilla::PluginBundle::Filter](https://metacpan.org/module/Dist::Zilla::PluginBundle::Filter)
 
 
 
