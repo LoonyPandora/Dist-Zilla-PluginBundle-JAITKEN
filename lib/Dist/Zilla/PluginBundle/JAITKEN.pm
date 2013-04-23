@@ -13,6 +13,7 @@ This is the L<Dist::Zilla> configuration that I use.
 It is exactly equivalent to
 
     [VersionFromModule]
+    [NameFromDirectory]
 
     [AutoPrereqs]
 
@@ -62,7 +63,7 @@ use strict;
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
 
-our $VERSION = '0.1.3';
+our $VERSION = '0.1.4';
 
 sub configure {
     my $self = shift;
@@ -72,25 +73,30 @@ sub configure {
         ['MetaJSON'],
         ['MinimumPerl'],
         ['VersionFromModule'],
-        [ReadmeAnyFromPod => {
-            type     => 'markdown',
-            filename => 'README',
-            location => 'build',
-        }],
-        [PruneFiles => {
-            filenames => [qw(
-                dist.ini README.markdown
-            )],
-        }],
-        [GithubMeta => {
-            issues => 1,
-        }],
-        [MinimumPrereqs=> {
-            minimum_year => 2009,
-        }],
-        [PrereqsClean=> {
-            minimum_perl => 'v5.10',
-        }],
+        ['NameFromDirectory'],
+        [
+            ReadmeAnyFromPod => {
+                type     => 'markdown',
+                filename => 'README',
+                location => 'build',
+            }
+        ], [
+            PruneFiles => {
+                filenames => ['dist.ini', 'README.markdown']
+            }
+        ], [
+            GithubMeta => {
+                issues => 1,
+            }
+        ], [
+            MinimumPrereqs => {
+                minimum_year => 2009,
+            }
+        ], [
+            PrereqsClean => {
+                minimum_perl => 'v5.10',
+            }
+        ],
     );
 
     $self->add_bundle('@Filter', {
@@ -108,8 +114,8 @@ L<Dist::Zilla::Plugin::AutoPrereqs>, L<Dist::Zilla::Plugin::GithubMeta>,
 L<Dist::Zilla::Plugin::MetaJSON>, L<Dist::Zilla::Plugin::MinimumPerl>,
 L<Dist::Zilla::Plugin::MinimumPrereqs>, L<Dist::Zilla::Plugin::PrereqsClean>,
 L<Dist::Zilla::Plugin::PruneFiles>, L<Dist::Zilla::Plugin::ReadmeAnyFromPod>,
-L<Dist::Zilla::Plugin::VersionFromModule>, L<Dist::Zilla::PluginBundle::Basic>,
-L<Dist::Zilla::PluginBundle::Filter>
+L<Dist::Zilla::Plugin::VersionFromModule>, L<Dist::Zilla::Plugin::NameFromDirectory>,
+L<Dist::Zilla::PluginBundle::Basic>, L<Dist::Zilla::PluginBundle::Filter>
 
 
 =head1 AUTHOR
