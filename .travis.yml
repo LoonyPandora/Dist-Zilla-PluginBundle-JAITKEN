@@ -2,8 +2,6 @@ language: perl
 
 perl:
     - "5.16"
-    - "5.14"
-    - "5.12"
 
 before_install:
     - cpanm Dist::Zilla --quiet --notest
