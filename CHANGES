@@ -1,3 +1,9 @@
+0.1.7   2014-02-10
+
+    [ FEATURE ]      
+    * Add D::Z::P::MetaProvides::Package because it's really useful, and increases my Kwalitee score
+
+
 0.1.6   2014-02-09
 
     [ BUGFIX ]      

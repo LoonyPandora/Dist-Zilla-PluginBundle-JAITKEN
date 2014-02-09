@@ -21,6 +21,8 @@ It is exactly equivalent to
 
     [MetaJSON]
 
+    [MetaProvides::Package]
+
     [ReadmeAnyFromPod]
     type = markdown
     filename = README
@@ -63,7 +65,7 @@ use strict;
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
 
-our $VERSION = '0.1.6';
+our $VERSION = '0.1.7';
 
 sub configure {
     my $self = shift;
@@ -71,6 +73,7 @@ sub configure {
     $self->add_plugins(
         ['AutoPrereqs'],
         ['MetaJSON'],
+        ['MetaProvides::Package'],
         ['MinimumPerl'],
         ['VersionFromModule'],
         ['NameFromDirectory'],
@@ -115,7 +118,8 @@ L<Dist::Zilla::Plugin::MetaJSON>, L<Dist::Zilla::Plugin::MinimumPerl>,
 L<Dist::Zilla::Plugin::MinimumPrereqs>, L<Dist::Zilla::Plugin::PrereqsClean>,
 L<Dist::Zilla::Plugin::PruneFiles>, L<Dist::Zilla::Plugin::ReadmeAnyFromPod>,
 L<Dist::Zilla::Plugin::VersionFromModule>, L<Dist::Zilla::Plugin::NameFromDirectory>,
-L<Dist::Zilla::PluginBundle::Basic>, L<Dist::Zilla::PluginBundle::Filter>
+L<Dist::Zilla::PluginBundle::Basic>, L<Dist::Zilla::PluginBundle::Filter>,
+L<Dist::Zilla::Plugin::MetaProvides>
 
 
 =head1 AUTHOR
