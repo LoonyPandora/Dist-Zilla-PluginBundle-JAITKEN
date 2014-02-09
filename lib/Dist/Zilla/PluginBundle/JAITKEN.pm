@@ -34,7 +34,7 @@ It is exactly equivalent to
     issues = 1
 
     [MinimumPrereqs]
-    minimum_year = 2009
+    minimum_year = 2007
 
     [PrereqsClean]
     minimum_perl = v5.10
@@ -90,7 +90,7 @@ sub configure {
             }
         ], [
             MinimumPrereqs => {
-                minimum_year => 2009,
+                minimum_year => 2007,
             }
         ], [
             PrereqsClean => {

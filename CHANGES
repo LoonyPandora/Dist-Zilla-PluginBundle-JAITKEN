@@ -1,3 +1,10 @@
+0.1.6   2014-02-09
+
+    [ BUGFIX ]      
+    * Specify the minimum_year as 2007 to get perl v5.10 rather than v5.1.0.1
+        Some linux distros patch the base version themselves (Oliver Gorwits)
+
+
 0.1.5   2013-04-23
 
     [ FEATURE ]      
