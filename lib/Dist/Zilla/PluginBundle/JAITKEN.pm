@@ -90,6 +90,7 @@ sub configure {
         ], [
             GithubMeta => {
                 issues => 1,
+                user => "LoonyPandora",
             }
         ], [
             MinimumPrereqs => {
